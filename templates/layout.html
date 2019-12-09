@@ -11,24 +11,24 @@
     <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='main.css') }}">
 
     {% if title %}
-        <title>Reddit Productivity Classifier - {{ title }}</title>
+        <title>Stop Cyberbullying on Twitter - Using ML - {{ title }}</title>
     {% else %}
-        <title>Reddit Productivity Classifier</title>
+        <title>Stop Cyberbullying on Twitter - Using ML</title>
     {% endif %}
 </head>
 <body>
     <header class="site-header">
       <nav class="navbar navbar-expand-md navbar-dark bg-steel fixed-top">
         <div class="container">
-          <a class="navbar-brand mr-4" href="/">Reddit Productivity Classifier</a>
+          <a class="navbar-brand mr-4" href="/">Stop Cyberbullying on Twitter</a>
           <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarToggle" aria-controls="navbarToggle" aria-expanded="false" aria-label="Toggle navigation">
             <span class="navbar-toggler-icon"></span>
           </button>
           <div class="collapse navbar-collapse" id="navbarToggle">
             <div class="navbar-nav mr-auto">
-              <!-- <a class="nav-item nav-link" href="/">About</a> -->
+              <a class="nav-item nav-link" href="/about">About</a>
               <a class="nav-item nav-link" href="/how">Demo</a>
-              <!-- <a class="nav-item nav-link" href="/data">Data</a> -->
+              <a class="nav-item nav-link" href="/data">Data</a>
               <a class="nav-item nav-link" href="/visualize">Visualizations</a>
             </div>
           </div>

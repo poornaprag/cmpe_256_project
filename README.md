@@ -1,6 +1,6 @@
-# cmpe_255_project
+# cmpe_256_project
 
-## Repo for our CMPE 255 Data Mining project
+## Repo for our CMPE 256 Large Scale Analytics project
 
 
 Steps to run the app:
